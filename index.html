@@ -14,9 +14,9 @@
     <!-- Global Container -->
     <div class="container mx-auto max-w-7xl p-2 md:p-10">
       <!-- Grid Container -->
-      <div class="text-white">
+      <div class="grid gap-6 grid-cols-1 text-white md:grid-cols-4 md:grid-rows-2">
         <!-- Box 1 -->
-        <div class="relative p-10 rounded-xl bg-purple-700">
+        <div class="relative p-10 rounded-xl bg-purple-700 md:col-span-2">
           <!-- Quotes Image -->
           <img src="images/bg-pattern-quotation.svg" alt="" class="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"/>
           <!-- Box Header -->
@@ -66,7 +66,7 @@
         </div>
 
         <!-- Box 3 (on large screens) -->
-        <div class="hidden p-10 rounded-xl text-gray-900 bg-white">  <!-- On small screens this box is hidden (on positioned at the last box (6 which than is the 5th)) -->
+        <div class="hidden p-10 rounded-xl text-gray-900 bg-white md:block md:row-span-2">  <!-- On small screens this box is hidden (on positioned at the last box (6 which than is the 5th)) -->
           <!-- Box Header -->
           <div class="flex space-x-4">
             <img src="images/image-kira.jpg" alt="" class="w-10 h-10 rounded-full ring-2 ring-purple-300"/>
@@ -111,7 +111,7 @@
         </div>
 
         <!-- Box 5 (Box 4 on small screens) -->
-        <div class="p-10 rounded-xl bg-gray-900">
+        <div class="p-10 rounded-xl bg-gray-900 md:col-span-2">
           <!-- Box Header -->
           <div class="flex space-x-4">
             <img src="images/image-patrick.jpg" alt="" class="w-10 h-10 rounded-full ring-2 ring-purple-300"/>
@@ -135,7 +135,7 @@
         </div>
 
         <!-- Box 6 (Box 5 on small screens - on large screen this box is hidden (Box 3)) -->
-        <div class="p-10 rounded-xl text-gray-900 bg-white">
+        <div class="p-10 rounded-xl text-gray-900 bg-white md:hidden">
           <!-- Box Header -->
           <div class="flex space-x-4">
             <img src="images/image-kira.jpg" alt="" class="w-10 h-10 rounded-full ring-2 ring-purple-300"/>
