@@ -13,5 +13,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],  // line-clamp plugin to truncate text (It end with ...) - https://tailwindcss.com/docs/plugins - npm install -D @tailwindcss/line-clamp
+  // Now line-clamp is already included in the framework. We don't need to use a plugin any more - https://tailwindcss.com/docs/line-clamp - Utilities for clamping text to a specific number of lines.
 }
